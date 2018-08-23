@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D542F9F21266E0C00C06E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542F9E21266E0C00C06E35 /* AppDelegate.swift */; };
+		7D542FA421266E0C00C06E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D542FA221266E0C00C06E35 /* Main.storyboard */; };
+		7D542FA621266E0E00C06E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D542FA521266E0E00C06E35 /* Assets.xcassets */; };
+		7D542FA921266E0E00C06E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D542FA721266E0E00C06E35 /* LaunchScreen.storyboard */; };
+		7D542FB421266E0E00C06E35 /* JCAppPayManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FB321266E0E00C06E35 /* JCAppPayManagerTests.swift */; };
+		7D542FBF21266E0E00C06E35 /* JCAppPayManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FBE21266E0E00C06E35 /* JCAppPayManagerUITests.swift */; };
+		7D542FD221266E2800C06E35 /* JCAppleOrderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FCE21266E2800C06E35 /* JCAppleOrderListModel.swift */; };
+		7D542FD321266E2800C06E35 /* JCApplePurchaseBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FCF21266E2800C06E35 /* JCApplePurchaseBusiness.swift */; };
+		7D542FD421266E2800C06E35 /* JCApplePurchaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FD121266E2800C06E35 /* JCApplePurchaseTool.swift */; };
+		7D542FDB21266E6000C06E35 /* JCUserDefaultsTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FD721266E6000C06E35 /* JCUserDefaultsTool.swift */; };
+		7D542FDC21266E6000C06E35 /* JCJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FD821266E6000C06E35 /* JCJson.swift */; };
+		7D542FDD21266E6000C06E35 /* JCUserDefulesBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FDA21266E6000C06E35 /* JCUserDefulesBusiness.swift */; };
+		7D542FEC21266EC900C06E35 /* JCPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FE021266EC800C06E35 /* JCPayVC.swift */; };
+		7D542FF021266EC900C06E35 /* JCPayVerifyReceiptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D542FE521266EC800C06E35 /* JCPayVerifyReceiptModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D542FB021266E0E00C06E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D542F9321266E0C00C06E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D542F9A21266E0C00C06E35;
+			remoteInfo = JCAppPayManager;
+		};
+		7D542FBB21266E0E00C06E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D542F9321266E0C00C06E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D542F9A21266E0C00C06E35;
+			remoteInfo = JCAppPayManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D542F9B21266E0C00C06E35 /* JCAppPayManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCAppPayManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D542F9E21266E0C00C06E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D542FA321266E0C00C06E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D542FA521266E0E00C06E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D542FA821266E0E00C06E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D542FAA21266E0E00C06E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D542FAF21266E0E00C06E35 /* JCAppPayManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCAppPayManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D542FB321266E0E00C06E35 /* JCAppPayManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCAppPayManagerTests.swift; sourceTree = "<group>"; };
+		7D542FB521266E0E00C06E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D542FBA21266E0E00C06E35 /* JCAppPayManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCAppPayManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D542FBE21266E0E00C06E35 /* JCAppPayManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JCAppPayManagerUITests.swift; sourceTree = "<group>"; };
+		7D542FC021266E0E00C06E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D542FCE21266E2800C06E35 /* JCAppleOrderListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCAppleOrderListModel.swift; sourceTree = "<group>"; };
+		7D542FCF21266E2800C06E35 /* JCApplePurchaseBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCApplePurchaseBusiness.swift; sourceTree = "<group>"; };
+		7D542FD121266E2800C06E35 /* JCApplePurchaseTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCApplePurchaseTool.swift; sourceTree = "<group>"; };
+		7D542FD721266E6000C06E35 /* JCUserDefaultsTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCUserDefaultsTool.swift; sourceTree = "<group>"; };
+		7D542FD821266E6000C06E35 /* JCJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCJson.swift; sourceTree = "<group>"; };
+		7D542FDA21266E6000C06E35 /* JCUserDefulesBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCUserDefulesBusiness.swift; sourceTree = "<group>"; };
+		7D542FE021266EC800C06E35 /* JCPayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCPayVC.swift; sourceTree = "<group>"; };
+		7D542FE521266EC800C06E35 /* JCPayVerifyReceiptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCPayVerifyReceiptModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D542F9821266E0C00C06E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FAC21266E0E00C06E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FB721266E0E00C06E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D542F9221266E0C00C06E35 = {
+			isa = PBXGroup;
+			children = (
+				7D542F9D21266E0C00C06E35 /* JCAppPayManager */,
+				7D542FB221266E0E00C06E35 /* JCAppPayManagerTests */,
+				7D542FBD21266E0E00C06E35 /* JCAppPayManagerUITests */,
+				7D542F9C21266E0C00C06E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D542F9C21266E0C00C06E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D542F9B21266E0C00C06E35 /* JCAppPayManager.app */,
+				7D542FAF21266E0E00C06E35 /* JCAppPayManagerTests.xctest */,
+				7D542FBA21266E0E00C06E35 /* JCAppPayManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D542F9D21266E0C00C06E35 /* JCAppPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FDE21266EC800C06E35 /* Pay */,
+				7D542FCC21266E2800C06E35 /* JCApplePurchase  */,
+				7D542FD521266E6000C06E35 /* JCUserDefaultsTool */,
+				7D542F9E21266E0C00C06E35 /* AppDelegate.swift */,
+				7D542FA221266E0C00C06E35 /* Main.storyboard */,
+				7D542FA521266E0E00C06E35 /* Assets.xcassets */,
+				7D542FA721266E0E00C06E35 /* LaunchScreen.storyboard */,
+				7D542FAA21266E0E00C06E35 /* Info.plist */,
+			);
+			path = JCAppPayManager;
+			sourceTree = "<group>";
+		};
+		7D542FB221266E0E00C06E35 /* JCAppPayManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FB321266E0E00C06E35 /* JCAppPayManagerTests.swift */,
+				7D542FB521266E0E00C06E35 /* Info.plist */,
+			);
+			path = JCAppPayManagerTests;
+			sourceTree = "<group>";
+		};
+		7D542FBD21266E0E00C06E35 /* JCAppPayManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FBE21266E0E00C06E35 /* JCAppPayManagerUITests.swift */,
+				7D542FC021266E0E00C06E35 /* Info.plist */,
+			);
+			path = JCAppPayManagerUITests;
+			sourceTree = "<group>";
+		};
+		7D542FCC21266E2800C06E35 /* JCApplePurchase  */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FCD21266E2800C06E35 /* JCApplePurchaseBusiness */,
+				7D542FD021266E2800C06E35 /* JCApplePurchaseTool */,
+			);
+			path = "JCApplePurchase ";
+			sourceTree = "<group>";
+		};
+		7D542FCD21266E2800C06E35 /* JCApplePurchaseBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FCE21266E2800C06E35 /* JCAppleOrderListModel.swift */,
+				7D542FCF21266E2800C06E35 /* JCApplePurchaseBusiness.swift */,
+			);
+			path = JCApplePurchaseBusiness;
+			sourceTree = "<group>";
+		};
+		7D542FD021266E2800C06E35 /* JCApplePurchaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FD121266E2800C06E35 /* JCApplePurchaseTool.swift */,
+			);
+			path = JCApplePurchaseTool;
+			sourceTree = "<group>";
+		};
+		7D542FD521266E6000C06E35 /* JCUserDefaultsTool */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FD621266E6000C06E35 /* JCUserDefaultsTool */,
+				7D542FD921266E6000C06E35 /* JCUserDefulesBusiness */,
+			);
+			path = JCUserDefaultsTool;
+			sourceTree = "<group>";
+		};
+		7D542FD621266E6000C06E35 /* JCUserDefaultsTool */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FD721266E6000C06E35 /* JCUserDefaultsTool.swift */,
+				7D542FD821266E6000C06E35 /* JCJson.swift */,
+			);
+			path = JCUserDefaultsTool;
+			sourceTree = "<group>";
+		};
+		7D542FD921266E6000C06E35 /* JCUserDefulesBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FDA21266E6000C06E35 /* JCUserDefulesBusiness.swift */,
+			);
+			path = JCUserDefulesBusiness;
+			sourceTree = "<group>";
+		};
+		7D542FDE21266EC800C06E35 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FDF21266EC800C06E35 /* controller */,
+				7D542FE121266EC800C06E35 /* model */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		7D542FDF21266EC800C06E35 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FE021266EC800C06E35 /* JCPayVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		7D542FE121266EC800C06E35 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7D542FE521266EC800C06E35 /* JCPayVerifyReceiptModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D542F9A21266E0C00C06E35 /* JCAppPayManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D542FC321266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManager" */;
+			buildPhases = (
+				7D542F9721266E0C00C06E35 /* Sources */,
+				7D542F9821266E0C00C06E35 /* Frameworks */,
+				7D542F9921266E0C00C06E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCAppPayManager;
+			productName = JCAppPayManager;
+			productReference = 7D542F9B21266E0C00C06E35 /* JCAppPayManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D542FAE21266E0E00C06E35 /* JCAppPayManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D542FC621266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManagerTests" */;
+			buildPhases = (
+				7D542FAB21266E0E00C06E35 /* Sources */,
+				7D542FAC21266E0E00C06E35 /* Frameworks */,
+				7D542FAD21266E0E00C06E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D542FB121266E0E00C06E35 /* PBXTargetDependency */,
+			);
+			name = JCAppPayManagerTests;
+			productName = JCAppPayManagerTests;
+			productReference = 7D542FAF21266E0E00C06E35 /* JCAppPayManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D542FB921266E0E00C06E35 /* JCAppPayManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D542FC921266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManagerUITests" */;
+			buildPhases = (
+				7D542FB621266E0E00C06E35 /* Sources */,
+				7D542FB721266E0E00C06E35 /* Frameworks */,
+				7D542FB821266E0E00C06E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D542FBC21266E0E00C06E35 /* PBXTargetDependency */,
+			);
+			name = JCAppPayManagerUITests;
+			productName = JCAppPayManagerUITests;
+			productReference = 7D542FBA21266E0E00C06E35 /* JCAppPayManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D542F9321266E0C00C06E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jindashi;
+				TargetAttributes = {
+					7D542F9A21266E0C00C06E35 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7D542FAE21266E0E00C06E35 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7D542F9A21266E0C00C06E35;
+					};
+					7D542FB921266E0E00C06E35 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7D542F9A21266E0C00C06E35;
+					};
+				};
+			};
+			buildConfigurationList = 7D542F9621266E0C00C06E35 /* Build configuration list for PBXProject "JCAppPayManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D542F9221266E0C00C06E35;
+			productRefGroup = 7D542F9C21266E0C00C06E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D542F9A21266E0C00C06E35 /* JCAppPayManager */,
+				7D542FAE21266E0E00C06E35 /* JCAppPayManagerTests */,
+				7D542FB921266E0E00C06E35 /* JCAppPayManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D542F9921266E0C00C06E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D542FA921266E0E00C06E35 /* LaunchScreen.storyboard in Resources */,
+				7D542FA621266E0E00C06E35 /* Assets.xcassets in Resources */,
+				7D542FA421266E0C00C06E35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FAD21266E0E00C06E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FB821266E0E00C06E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D542F9721266E0C00C06E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D542FD221266E2800C06E35 /* JCAppleOrderListModel.swift in Sources */,
+				7D542FD321266E2800C06E35 /* JCApplePurchaseBusiness.swift in Sources */,
+				7D542FDB21266E6000C06E35 /* JCUserDefaultsTool.swift in Sources */,
+				7D542FD421266E2800C06E35 /* JCApplePurchaseTool.swift in Sources */,
+				7D542FEC21266EC900C06E35 /* JCPayVC.swift in Sources */,
+				7D542F9F21266E0C00C06E35 /* AppDelegate.swift in Sources */,
+				7D542FDD21266E6000C06E35 /* JCUserDefulesBusiness.swift in Sources */,
+				7D542FF021266EC900C06E35 /* JCPayVerifyReceiptModel.swift in Sources */,
+				7D542FDC21266E6000C06E35 /* JCJson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FAB21266E0E00C06E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D542FB421266E0E00C06E35 /* JCAppPayManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D542FB621266E0E00C06E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D542FBF21266E0E00C06E35 /* JCAppPayManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D542FB121266E0E00C06E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D542F9A21266E0C00C06E35 /* JCAppPayManager */;
+			targetProxy = 7D542FB021266E0E00C06E35 /* PBXContainerItemProxy */;
+		};
+		7D542FBC21266E0E00C06E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D542F9A21266E0C00C06E35 /* JCAppPayManager */;
+			targetProxy = 7D542FBB21266E0E00C06E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D542FA221266E0C00C06E35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D542FA321266E0C00C06E35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D542FA721266E0E00C06E35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D542FA821266E0E00C06E35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D542FC121266E0E00C06E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D542FC221266E0E00C06E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D542FC421266E0E00C06E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D542FC521266E0E00C06E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D542FC721266E0E00C06E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCAppPayManager.app/JCAppPayManager";
+			};
+			name = Debug;
+		};
+		7D542FC821266E0E00C06E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCAppPayManager.app/JCAppPayManager";
+			};
+			name = Release;
+		};
+		7D542FCA21266E0E00C06E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCAppPayManager;
+			};
+			name = Debug;
+		};
+		7D542FCB21266E0E00C06E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JCAppPayManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JCAppPayManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCAppPayManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D542F9621266E0C00C06E35 /* Build configuration list for PBXProject "JCAppPayManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D542FC121266E0E00C06E35 /* Debug */,
+				7D542FC221266E0E00C06E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D542FC321266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D542FC421266E0E00C06E35 /* Debug */,
+				7D542FC521266E0E00C06E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D542FC621266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D542FC721266E0E00C06E35 /* Debug */,
+				7D542FC821266E0E00C06E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D542FC921266E0E00C06E35 /* Build configuration list for PBXNativeTarget "JCAppPayManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D542FCA21266E0E00C06E35 /* Debug */,
+				7D542FCB21266E0E00C06E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D542F9321266E0C00C06E35 /* Project object */;
+}
